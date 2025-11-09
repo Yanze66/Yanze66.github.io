@@ -1,7 +1,7 @@
 # 站点设置
-title: "你的网站名称"
-name: "你的名字"
-description: "网站描述"
+title: "Yanze's Homepage"
+name: "吴彦泽"
+description: "闲暇之余创建的网站"
 
 # 主题设置
 remote_theme: mmistakes/minimal-mistakes
@@ -17,15 +17,15 @@ permalink: /:categories/:title/
 
 # 作者信息
 author:
-  name: "你的名字"
-  bio: "个人简介"
-  location: "位置"
+  name: "吴彦泽"
+  bio: "Pursuing IT PhD at George Mason University.  "
+  location: "Fairfax, VA, US"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Yanze66"
     - label: "Google Scholar"
-      icon: "fab fa-fw fa-github"
+      icon: "fab fa-fw fa-google-scholar"
       url: "https://scholar.google.com/citations?view_op=list_works&hl=en&user=D7uiX0AAAAAJ&gmla=AKzYXQ2pEES98hFLTZ0Bu5VchQ1AjE6TVDnzYV3Z3EVHIxNSm4xE1CnqbYc36w1jUCoE1ojZYOd82Qw54LLI3svjzZrXDmvzSg"
 
 # 默认设置
