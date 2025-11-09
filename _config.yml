@@ -1,0 +1,35 @@
+# 站点设置
+title: "你的网站名称"
+name: "你的名字"
+description: "网站描述"
+
+# 主题设置
+remote_theme: mmistakes/minimal-mistakes
+minimal_mistakes_skin: "default" # 可选 default, air, dark, dusk, neon
+
+# 插件
+plugins:
+  - jekyll-include-cache
+
+# 构建设置
+markdown: kramdown
+permalink: /:categories/:title/
+
+# 作者信息
+author:
+  name: "你的名字"
+  bio: "个人简介"
+  location: "位置"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/Yanze66"
+
+# 默认设置
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "single"
+      author_profile: true
