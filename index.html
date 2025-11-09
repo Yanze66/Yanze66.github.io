@@ -241,4 +241,51 @@ h3 {
 .reference a:hover {
   text-decoration: underline;
 }
+
+.award-item {
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.award-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 0.3rem;
+}
+
+.award-name {
+  font-weight: bold;
+  color: #003366;
+  flex: 1;
+}
+
+.award-date {
+  color: #666;
+  font-weight: normal;
+  white-space: nowrap;
+}
+
+.award-location {
+  font-style: italic;
+  color: #555;
+  margin-bottom: 0.3rem;
+}
+
+.award-description {
+  color: #444;
+  line-height: 1.4;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+  .award-header {
+    flex-direction: column;
+  }
+  
+  .award-date {
+    margin-top: 0.2rem;
+  }
+}
 </style>
