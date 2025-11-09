@@ -1,4 +1,4 @@
-# 站点设置
+Wu# 站点设置
 title: "Yanze's Homepage"
 name: "吴彦泽"
 description: "闲暇之余创建的网站"
@@ -17,9 +17,11 @@ permalink: /:categories/:title/
 
 # 作者信息
 author:
-  name: "吴彦泽"
-  bio: "Pursuing IT PhD at George Mason University.  "
+  name: "Yanze Wu"
+  bio: "Pursuing IT PhD at George Mason University. 2024 - current  "
   location: "Fairfax, VA, US"
+  mail: ywu42@gmu.edu
+  phone number: +1 571-604-4865 
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -27,7 +29,9 @@ author:
     - label: "Google Scholar"
       icon: "fab fa-fw fa-google-scholar"
       url: "https://scholar.google.com/citations?view_op=list_works&hl=en&user=D7uiX0AAAAAJ&gmla=AKzYXQ2pEES98hFLTZ0Bu5VchQ1AjE6TVDnzYV3Z3EVHIxNSm4xE1CnqbYc36w1jUCoE1ojZYOd82Qw54LLI3svjzZrXDmvzSg"
-
+  - label: "resume"
+      icon: "fas fa-fw fa-file-pdf"
+      url: "/assets/files/resume.pdf"
 # 默认设置
 defaults:
   - scope:
