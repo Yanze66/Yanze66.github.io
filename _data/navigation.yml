@@ -1,9 +1,9 @@
 main:
   - title: "首页"
     url: /
-  - title: "关于"
-    url: /about/
-  - title: "更新"
-    url: /categories/
-  - title: "标签"
-    url: /tags/
+  # - title: "关于"
+  #   url: /about/
+  # - title: "更新"
+  #   url: /categories/
+  # - title: "标签"
+  #   url: /tags/
