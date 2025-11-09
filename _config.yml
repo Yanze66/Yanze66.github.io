@@ -29,9 +29,9 @@ author:
     - label: "Google Scholar"
       icon: "fab fa-fw fa-google-scholar"
       url: "https://scholar.google.com/citations?view_op=list_works&hl=en&user=D7uiX0AAAAAJ&gmla=AKzYXQ2pEES98hFLTZ0Bu5VchQ1AjE6TVDnzYV3Z3EVHIxNSm4xE1CnqbYc36w1jUCoE1ojZYOd82Qw54LLI3svjzZrXDmvzSg"
-    - label: "resume"
-      icon: "fas fa-fw fa-file-pdf"
-      url: "/assets/files/resume.pdf"
+    # - label: "resume"
+    #   icon: "fas fa-fw fa-file-pdf"
+    #   url: "/assets/files/resume.pdf"
 # 默认设置
 defaults:
   - scope:
