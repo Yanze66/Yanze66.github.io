@@ -24,6 +24,9 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Yanze66"
+    - label: "Google Scholar"
+      icon: "fab fa-fw fa-github"
+      url: "https://scholar.google.com/citations?view_op=list_works&hl=en&user=D7uiX0AAAAAJ&gmla=AKzYXQ2pEES98hFLTZ0Bu5VchQ1AjE6TVDnzYV3Z3EVHIxNSm4xE1CnqbYc36w1jUCoE1ojZYOd82Qw54LLI3svjzZrXDmvzSg"
 
 # 默认设置
 defaults:
