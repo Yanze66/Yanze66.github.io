@@ -4,7 +4,8 @@ author_profile: true
 ---
 
 <div class="home-publications">
-  
+
+  <!-- Publications -->
   <section class="publications">
     <h2>📚 Publications</h2>
     
@@ -39,7 +40,7 @@ author_profile: true
         <p><strong>Y. Wu</strong> and M. T. Arafin, 
           "Ising Model Processors on a Spatial Computing Architecture", 
           <em>IEEE 67th International Midwest Symposium on Circuits and Systems (MWSCAS)</em>, 
-          Springfield, MA, USA, 2024, pp. 1383-1387.</p>
+          Springfield, MA, USA, 2024, pp. 1383–1387.</p>
       </div>
     </div>
 
@@ -73,6 +74,33 @@ author_profile: true
     </div>
   </section>
 
+  <!-- Experience -->
+  <section class="experience">
+    <h2>💼 Experience</h2>
+
+    <div class="experience-item">
+      <h3>Fisilink Microelectronics Technology Co., Ltd.</h3>
+      <p><em>Internship of Digital Integrated Circuit Design</em><br>
+      Suzhou, China | Jun. 2020 – Sep. 2020</p>
+      <ul>
+        <li>XMSS Hardware Accelerators: Learned and implemented XMSS in hardware.</li>
+        <li>Electronic Control Unit: Constructed fast verify modules for vehicles achieving 2200 verifications per second.</li>
+        <li>Fast Modular Application Accelerators: Built modular accelerators for high-performance NTT implementation.</li>
+      </ul>
+    </div>
+
+    <div class="experience-item">
+      <h3>University of Chinese Academy of Sciences</h3>
+      <p><em>Research Assistant</em><br>
+      Shenzhen, China | Oct. 2019 – Jan. 2020</p>
+      <ul>
+        <li>Implemented LSTM Hardware Accelerators for recurrent neural networks.</li>
+        <li>Built lightweight accelerators for floating-point operations used in neural networks.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Research Interests -->
   <section class="research-interests">
     <h2>🎯 Research Interests</h2>
     <ul>
@@ -85,6 +113,7 @@ author_profile: true
     </ul>
   </section>
 
+  <!-- Technical Skills -->
   <section class="technical-skills">
     <h2>💻 Technical Skills</h2>
     <ul>
@@ -94,47 +123,79 @@ author_profile: true
     </ul>
   </section>
 
+  <!-- Reference -->
+  <section class="reference">
+    <h2>📧 Reference</h2>
+    <p><strong>Tanvir Arafin, Ph.D.</strong><br>
+    Assistant Professor, Cyber Security Engineering Department, George Mason University<br>
+    <a href="mailto:marafin@gmu.edu">marafin@gmu.edu</a></p>
+  </section>
+
 </div>
 
 <style>
 body, .home-publications {
   font-family: "Times New Roman", Times, serif;
   line-height: 1.6;
-  color: #222;
-}
-
-.home-publications {
+  color: #1a1a1a;
+  background-color: #fafafa;
   margin: 2rem 0;
 }
 
-/* Section headers */
-.publications h2, .research-interests h2, .technical-skills h2 {
-  margin-top: 2rem;
-  color: #2c3e50;
-  font-weight: bold;
-  border-bottom: 1px solid #ccc;
+/* Headings */
+h2 {
+  color: #003366;
+  border-bottom: 2px solid #d9d9d9;
   padding-bottom: 0.3rem;
+  margin-top: 2rem;
+  font-weight: bold;
 }
 
-/* Year titles */
-.publication-year h3 {
-  margin-top: 1.5rem;
-  color: #2c3e50;
-  font-style: italic;
+h3 {
+  color: #333333;
+  font-weight: 600;
+  margin-top: 1.2rem;
 }
 
-/* Publications as plain text */
+/* Publication lists */
 .publication-list p {
   margin-bottom: 0.8rem;
 }
 
-/* Research interests: inline list */
-.research-interests ul, .technical-skills ul {
+/* Research interests & skills */
+.research-interests ul,
+.technical-skills ul {
   list-style: none;
   padding: 0;
+  margin-top: 0.5rem;
 }
 
-.research-interests li, .technical-skills li {
+.research-interests li,
+.technical-skills li {
   margin: 0.3rem 0;
+}
+
+/* Experience section */
+.experience-item {
+  margin-top: 1rem;
+}
+
+.experience-item ul {
+  margin-top: 0.5rem;
+  margin-left: 1.5rem;
+}
+
+.experience-item li {
+  margin-bottom: 0.3rem;
+}
+
+/* Reference */
+.reference a {
+  color: #004080;
+  text-decoration: none;
+}
+
+.reference a:hover {
+  text-decoration: underline;
 }
 </style>
