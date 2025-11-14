@@ -14,5 +14,5 @@ recent:
         url: /_posts/2025-11-01-arkane-esl.html
       - title: "DATE'25 Paper Accepted"
         url: /_posts/2025-10-20-date25.html
-      - title: "New Internship at XYZ Lab"
-        url: /_posts/2025-08-10-internship.html
+      # - title: "New Internship at XYZ Lab"
+      #   url: /_posts/2025-08-10-internship.html
