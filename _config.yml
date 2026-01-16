@@ -34,6 +34,9 @@ author:
     - label: "Resume"
       icon: "fas fa-fw fa-file-pdf"
       url: "/assets/files/resume.pdf"
+    - label: "Resume_zh"
+      icon: "fas fa-fw fa-file-pdf"
+      url: "/assets/files/resume_zh.pdf" 
 # 默认设置
 defaults:
   - scope:
