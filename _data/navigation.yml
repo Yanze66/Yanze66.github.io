@@ -10,9 +10,13 @@ main:
 recent:
   - title: "Recent Updates"
     children:
-      - title: "ArKANe Paper Accepted to ESL 2025"
-        url: /_posts/2025-11-01-arkane-esl.html
-      - title: "DATE'25 Paper Accepted"
-        url: /_posts/2025-10-20-date25.html
+      - title: "DATE'26: GPU Sum-Check for Verifiable Computing"
+        url: https://ieeexplore.ieee.org/document/11539722
+      - title: "DAC'26: ATTINA Accepted"
+        url: https://par.nsf.gov/biblio/10708434
+      - title: "ICCD'25: THENA Published"
+        url: https://ieeexplore.ieee.org/document/11310877
+      - title: "PACT'25: AXIOS Published"
+        url: https://ieeexplore.ieee.org/document/11282942
       # - title: "New Internship at XYZ Lab"
       #   url: /_posts/2025-08-10-internship.html
